@@ -2,3 +2,14 @@ connect
 
 sit1si16cs050
 kkm
+
+create table student
+(USN                VARCHAR(10),
+NAME                VARCHAR(15),
+GENDER              VARCHAR(2),
+DOB                 DATE,
+EMAIL               VARCHAR(15),
+CGPA                FLOAT,
+NO_OF_BACKLOG       INTEGER,
+C_ID                VARCHAR(5),
+ADD CONSTRAINT PRIMARY KEY PK1 (USN));
